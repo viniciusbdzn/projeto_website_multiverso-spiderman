@@ -1,0 +1,34 @@
+.s-logo {
+    max-width: 100%;
+    max-height: 50vh;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.pills ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.pills ul li {
+    display: flex;
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 5px 15px;
+    margin: 0 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.pills ul li:first-child {
+    margin-left: 0;
+}
+
+.s-description {
+    margin-bottom: auto;
+    box-sizing: border-box;
+    display: flex;
+    max-width: 100%;
+    min-height: 100%;
+}
